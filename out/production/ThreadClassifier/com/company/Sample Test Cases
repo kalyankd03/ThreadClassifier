@@ -1,0 +1,21 @@
+
+Input:
+3 2
+File1:200
+File2:500
+File3:800
+
+Output:
+[[File1:0 - 199, File2:0 - 499, File3:0 - 49], [File3:50 - 800]]
+
+
+
+
+Input:
+3 3
+File1:200
+File2:500
+File3:702
+
+Output:
+[[File1:0 - 199, File2:0 - 267], [File2:268 - 499, File3:0 - 234], [File3:235 - 701]]
